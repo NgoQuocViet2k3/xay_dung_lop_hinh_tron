@@ -7,9 +7,6 @@ class Circle {
         this.color = color;
     }
 
-    get radius() {
-        return this.radius;
-    }
 getArea(){
         return this.radius*this.radius*Math.PI;
 }
